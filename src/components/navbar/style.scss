@@ -1,0 +1,79 @@
+.navbar__wrapper {
+  background-color: #fe2722;
+  border: 1px solid #de2622;
+  border-radius: 6px;
+  margin-top: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  .navbar__logo {
+    .logo__img {
+      width: 121px;
+      color: #fff;
+    }
+  }
+  .navbar__items {
+    display: flex;
+    .navbar__catalog {
+      align-items: center;
+      border: none;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .navbar__catlog__item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      position: relative;
+      text-decoration: none;
+      gap: 10px;
+      outline: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: #e81711;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+      h2 {
+        color: #fff;
+        display: inline;
+        font-family: Inter, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        line-height: 13px;
+      }
+    }
+    .navbar__search {
+      padding: 0;
+      border-radius: 6px;
+      background-color: #fff;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+
+      input {
+        border: none;
+        margin: 4px 5px 4px 0;
+        outline: none;
+        width: 600px;
+      }
+      input::placeholder {
+        padding: 10px;
+      }
+      button {
+        min-width: 104px;
+        margin: 4px 5px 4px 0;
+        border: 1px solid #b2ed50;
+        background-color: #cf6;
+        border-radius: 100px;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.sviper__slide {
+    display: none;
+    background-image: url(../../assets/image/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    @media (min-width: 700px) {
+      display: block;
+    }
+  }
+  
+  .sviper {
+    &-card {
+      padding: 91px 0 95px 100px;
+    }
+    &__title {
+      color: rgb(37, 61, 78);
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 72px;
+      letter-spacing: 0%;
+      text-align: left;
+      max-width: 601px;
+    }
+    &__text {
+      color: rgb(126, 126, 126);
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 31px 0 25px 0;
+    }
+    &__input {
+      margin-top: 40px;
+      padding: 0 0 0 60px;
+      border-radius: 50px;
+      border: 1px solid #fff;
+      background-color: #fff;
+      max-width: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      img {
+        position: absolute;
+        left: 25px;
+      }
+      input {
+        border: none;
+      }
+      input::placeholder {
+        color: rgb(131, 131, 131);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      button {
+        padding: 22px 40px;
+        border-radius: 50px;
+        background: rgb(59, 183, 126);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: center;
+      }
+    }
+  }
+  
